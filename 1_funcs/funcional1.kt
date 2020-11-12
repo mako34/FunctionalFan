@@ -6,16 +6,21 @@ fun multiplica (a: Int, b: Int): Int{
     return a * b
 }
 
-const operations = {
-    suma()
-    multiplica()
+// const operations = {
+//     suma()
+//     multiplica()
+// }
+
+enum class Operations(function: KFunction<Int>) {
+    Suma(function = ::suma);
+    Multiplica(function = ::multiplica);
 }
 
 fun main() {
     println("sua suma:: ${suma(2, 3)}")
     println("sua multiplica:: ${multiplica(2, 3)}")
 
-    println("sua multiplica:: ${operations.multiplica(2,3)}")
+    // println("sua multiplica:: ${operations.multiplica(2,3)}")
 
 }
 

@@ -13,13 +13,16 @@ func multiplica(a:Int, b:Int) -> Int {
 print("sua suma", suma(a: 2, b: 3))
 print("sua multiplica", multiplica(a: 2, b: 3))
 
-var operations = {
-    suma
-    multiplica
-}
+//using a tuple
+let operations = (
+    suma: suma,
+    multiplica: multiplica
+)
 
 
-print("sua operatio", operations.suma(a: 2, b: 3)
+print("sum of first class", operations.suma(2, 3))
+print("mult of first class", operations.multiplica(2, 3))
+
 
 //12 nov
 //blocked, copy from jS example
