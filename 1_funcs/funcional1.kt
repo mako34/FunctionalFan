@@ -6,10 +6,6 @@ fun multiplica (a: Int, b: Int): Int{
     return a * b
 }
 
-// const operations = {
-//     suma()
-//     multiplica()
-// }
 
 enum class Operations(function: KFunction<Int>) {
     Suma(function = ::suma);

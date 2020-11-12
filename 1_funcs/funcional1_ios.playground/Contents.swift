@@ -20,6 +20,18 @@ let operations = (
 )
 
 
+//option 2
+//class with static functions
+//class Operations {
+//    static func suma(a:Int, b:Int) -> Int {
+//        return a + b
+//    }
+//
+//    static func multiplica(a:Int, b:Int) -> Int {
+//        return a * b
+//    }
+//}
+
 print("sum of first class", operations.suma(2, 3))
 print("mult of first class", operations.multiplica(2, 3))
 
