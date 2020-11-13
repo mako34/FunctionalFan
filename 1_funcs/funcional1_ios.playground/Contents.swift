@@ -32,10 +32,23 @@ let operations = (
 //    }
 //}
 
-print("sum of first class", operations.suma(2, 3))
-print("mult of first class", operations.multiplica(2, 3))
-
-
 //12 nov
 //blocked, copy from jS example
 //    https://stackoverflow.com/questions/64798744/swift-functions-inside-a-var
+
+print("sum of first class", operations.suma(2, 3))
+print("mult of first class", operations.multiplica(2, 3))
+ 
+//higher order functions
+//funcs that operate on other funcs
+// take other funcs as args
+// returns other funcs
+
+let numbers = [1, 1, 2, 3, 5, 8]
+
+func transformFunction(x:Int) -> Int  {
+    return x + 2
+}
+
+print ("transformFunction::", numbers.map(transformFunction(x:)))
+

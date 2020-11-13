@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>E3BB9822-C5AB-41EA-8C23-9674D1A8BDAF</key>
+		<key>18138BDD-5DBD-4B06-BAE2-5954B447219E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E3BB9822-C5AB-41EA-8C23-9674D1A8BDAF.xcactivitylog</string>
+			<string>18138BDD-5DBD-4B06-BAE2-5954B447219E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Build funcional1_ios (Playground)</string>
 			<key>timeStartedRecording</key>
-			<real>626853465.63566804</real>
+			<real>626934246.99350405</real>
 			<key>timeStoppedRecording</key>
-			<real>626853466.035779</real>
+			<real>626934247.240399</real>
 			<key>title</key>
 			<string>Build funcional1_ios (Playground)</string>
 			<key>uniqueIdentifier</key>
-			<string>E3BB9822-C5AB-41EA-8C23-9674D1A8BDAF</string>
+			<string>18138BDD-5DBD-4B06-BAE2-5954B447219E</string>
+		</dict>
+		<key>6F4DEF37-6F8E-4E16-BB60-08E444A9891F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6F4DEF37-6F8E-4E16-BB60-08E444A9891F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>funcional1_ios</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>funcional1_ios (Playground)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build funcional1_ios (Playground)</string>
+			<key>timeStartedRecording</key>
+			<real>626934257.94643497</real>
+			<key>timeStoppedRecording</key>
+			<real>626934257.992625</real>
+			<key>title</key>
+			<string>Build funcional1_ios (Playground)</string>
+			<key>uniqueIdentifier</key>
+			<string>6F4DEF37-6F8E-4E16-BB60-08E444A9891F</string>
 		</dict>
 		<key>FF1D565B-CD0E-417F-B8E3-4E3909BDECA5</key>
 		<dict>

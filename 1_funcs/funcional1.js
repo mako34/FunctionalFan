@@ -25,7 +25,10 @@ console.log ("sum of first class::", operations.suma(2,3))
 console.log ("mult of first class::", operations.multiplica(2,3))
 
 //
-//Higher order functions
+//higher order functions
+//funcs that operate on other funcs
+// take other funcs as args
+// returns other funcs
 
 const numbers = [1, 1, 2, 3, 5, 8]
 const transformFunction = x => x + 2
@@ -39,6 +42,9 @@ const makeGreeter = greeting => name => `${greeting}, ${name}!`
 
 const greet = makeGreeter('haho')
 console.log(greet('mako'))
+
+
+
 
 
 //notes
